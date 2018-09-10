@@ -1,0 +1,21 @@
+{
+  "name": "webpack_cxj",
+  "version": "1.1.0",
+  "description": "这是我们入门webpack的第一天",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "server":"webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "872118328@qq.com"
+  },
+  "author": "cxj",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.9.5"
+  }
+}
