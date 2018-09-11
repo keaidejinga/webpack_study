@@ -1,11 +1,4 @@
 # webpack_study
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
 1.什么是webpack
     Webpack=>模块打包机
     它可以做什么事情呢:分析你的项目结构 找到JavaScript模块以及其他一些浏览器不能直接运行的扩展语言
@@ -35,13 +28,10 @@
     来进行打包=>他会收缩是否存在webpack.config.js
     那么 node_modules\.bin\webpack=>还是很长
     能不能简单好记一点呢
-
     在package.json 里面的script这个对象
     是一个自定义指令的位置
     我们可以简化命令实现打包
-
     npm直接key是有限制的
-
 <!--access, adduser, bin, bugs, c, cache, completion, config,
 ddp, dedupe, deprecate, dist-tag, docs, doctor, edit,
 explore, get, help, help-search, i, init, install,
@@ -82,8 +72,6 @@ up, update, v, version, view, whoami
         filename:'bulid_main.js'
     }
 }-->
-
-
     代码热更新<=>创建自己的开发测试服务器
     webpack提供一个本地开发服务器,这个服务器是基于node.js
     不过这个模块需要下载并且依赖一下
@@ -104,15 +92,12 @@ babel的安装和配置
     babel-loader ====>让webpack知道babel如何运行
     babel-core ====>让babel知道如何解析代码
     babel-preset-env ====>可以根据不同的环境转换代码
-
-
+    
     npm i --save-dev babel-loader babel-core babel-preset-env
 
     babel-loader ===>es6 进行转义 ==>(前端的export与export default规范)
 
     对css进行打包
-
-
 
 <!--插件-->
 
@@ -152,7 +137,6 @@ babel的安装和配置
         new ExtractTextPlugin("style.css")
 -->
 
-
 插件的版本号
 <!--
     "babel-core": "^6.26.3",
@@ -169,9 +153,3 @@ babel的安装和配置
     "url-loader": "^1.1.1",
     "webpack": "^3.5.6"
     -->
-
-
-
-
-</body>
-</html>
